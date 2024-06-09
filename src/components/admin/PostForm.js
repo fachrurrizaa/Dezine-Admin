@@ -47,7 +47,7 @@ export default function PostForm({
   }
 
   if (goToPost){
-    return router.push('/admin/post')
+    return router.push('/dashboard/post')
   }
 
   async function uploadImages(e){
