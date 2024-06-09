@@ -45,7 +45,7 @@ export default function page() {
 
     return (
         <Layout>
-            <Link className='bg-[#028d94] text-white rounded-md p-3' href={'/admin/post/new'}>Add new post</Link>
+            <Link className='bg-[#028d94] text-white rounded-md p-3' href={'/dashboard/post/new'}>Add new post</Link>
             {posts.length === 0 ? '' : 
                 <div className="overflow-x-auto mt-8">
                     <table className="table">
