@@ -132,7 +132,7 @@ export default function PostForm({
         value={link}
         onChange={e => setLink(e.target.value)}
       />
-      <Button type={"submit"} className={"rounded-lg bg-[#028d94] hover:bg-[#02b2bb] mt-2"} content={pathname.includes('/edit') ? "Save" : "Publish" }/>
+      <Button type={"submit"} className={"rounded-lg bg-[#028d94] hover:bg-[#02b2bb] mt-2 text-white"} content={pathname.includes('/edit') ? "Save" : "Publish" }/>
     </form>
   )
 }

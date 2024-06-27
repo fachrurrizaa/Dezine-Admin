@@ -80,7 +80,7 @@ export default function page() {
               <option value={category._id} key={category._id}>{category.name}</option>
             ))}
           </select>
-          <Button type={"submit"} className={"rounded-lg bg-[#028d94] hover:bg-[#02b2bb] py-4 w-20"} content={"Save"}/>
+          <Button type={"submit"} className={"rounded-lg bg-[#028d94] hover:bg-[#02b2bb] py-4 w-20 text-white"} content={"Save"}/>
         </form>
         {categories.length === 0 ? '' : 
           <div className="overflow-x-auto mt-8">
