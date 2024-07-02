@@ -9,17 +9,6 @@ const Provider = ({children}) => {
     const [categories, setCategories] = useState([]);
     const [isUpdated, setIsUpdated] = useState(false);
 
-    // useEffect(() => {
-    //     const getCategories = async () => {
-    //       const { data } = await axios(`https://zullkit-backend.belajarkoding.com/api/categories`)
-
-    //       setCategories(data.data.data)
-    //     }
-  
-    //     getCategories().then(r => r)
-  
-    // }, [])
-
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
